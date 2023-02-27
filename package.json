@@ -1,0 +1,28 @@
+{
+  "name": "moonrunners-raffles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ethereum-waffle/mock-contract": "^4.0.4",
+    "@ethereum-waffle/provider": "^4.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@openzeppelin/hardhat-upgrades": "^1.22.1",
+    "ethereum-waffle": "^4.0.10",
+    "hardhat": "^2.12.7",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1",
+    "@openzeppelin/contracts-upgradeable": "^4.8.1"
+  }
+}
